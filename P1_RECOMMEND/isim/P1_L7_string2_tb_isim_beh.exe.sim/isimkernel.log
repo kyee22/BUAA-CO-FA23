@@ -1,0 +1,28 @@
+Command line:
+   P1_L7_string2_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59972
+
+Fri Oct 20 17:32:50 2023
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5158.01 Meg
+
+ Total Signals          : 20
+ Total Nets             : 26
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 15
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 148
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 4686.16 Meg
+
+Fri Oct 20 17:53:54 2023
+
