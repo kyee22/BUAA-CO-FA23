@@ -138,8 +138,11 @@
 | PC[31:0]         | I    | 当前PC值                                                     |
 | NPCOp[1:0]       | I    | 控制PC更新的方式，具体见功能定义<br>00：顺序更新<br>01：beq更新<br>10：……<br>11：…… |
 | Extend_Imm[31:0] | I    | EXT模块输出端的立即数                                        |
+| Imm26[25:0]      | I    | j型跳转指令的地址，来自指令的25:0位                          |
+| $reg[31:0]       | I    | GRF模块读出的某个寄存器的值                                  |
 | eq?              | I    | ALU模块输出端的`R[rs]==R[rt]`判断结果<br>0：不相等<br>1：相等 |
 | NPC[31:0]        | O    | 下一个PC值                                                   |
+| PC+4[31:0]       | O    | 当前PC值+4                                                   |
 
 #### 功能定义
 
@@ -589,15 +592,18 @@ for i in range(700):
 
      同时考虑到课上扩展，我将可能出现的PC更新方式作大致分类，罗列如下：
 
-     * **非跳转类**：$\rm PC\leftarrow PC+4$
-     * **b 跳转类**：$\rm PC\leftarrow (R[rs]==R[rt])\,?PC+4+sign\_extend(Imm||0^2):PC+4$
+     * **<font color=orange>非跳转类</font>**：$\rm PC\leftarrow PC+4$
+     * **<font color=orange>b 跳转类</font>**：$\rm PC\leftarrow (R[rs]==R[rt])\,?PC+4+sign\_extend(Imm||0^2):PC+4$
        * `beq`
+       * `beqz`
        * `blt`
        * ……
-     * **j 跳转类**：$\rm PC\leftarrow PC_{31..28}||Imm_{25..0}||0^2$
+     * **<font color=orange>j 跳转类</font>**：$\rm PC\leftarrow PC_{31..28}||Imm_{25..0}||0^2$
        * `j`
        * `jal`：还需要回写R[31]←PC+4
-     * **跳转到寄存器`jr`**：$\rm PC\leftarrow R[rs]$
+     * **<font color=orange>jr跳转类</font>**：$\rm PC\leftarrow R[rs]$
+       * `jr`
+       * `jalr`
 
 4. **事实上，实现 `nop` 空指令，我们并不需要将它加入控制信号真值表，为什么？**
 
