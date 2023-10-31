@@ -1,0 +1,38 @@
+Running: E:\ISE\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/CO/co-lab/P4_PW/mips_tb_isim_beh.exe -prj E:/CO/co-lab/P4_PW/mips_tb_beh.prj work.mips_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/CO/co-lab/P4_PW/NPC.v" into library work
+Analyzing Verilog file "E:/CO/co-lab/P4_PW/MySplitter.v" into library work
+Analyzing Verilog file "E:/CO/co-lab/P4_PW/MUX.v" into library work
+Analyzing Verilog file "E:/CO/co-lab/P4_PW/IFU.v" into library work
+Analyzing Verilog file "E:/CO/co-lab/P4_PW/GRF.v" into library work
+Analyzing Verilog file "E:/CO/co-lab/P4_PW/EXT.v" into library work
+Analyzing Verilog file "E:/CO/co-lab/P4_PW/DM.v" into library work
+Analyzing Verilog file "E:/CO/co-lab/P4_PW/CTRL.v" into library work
+Analyzing Verilog file "E:/CO/co-lab/P4_PW/ALU.v" into library work
+Analyzing Verilog file "E:/CO/co-lab/P4_PW/mips.v" into library work
+Analyzing Verilog file "E:/CO/co-lab/P4_PW/mips_tb.v" into library work
+Analyzing Verilog file "E:/ISE/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module IFU
+Compiling module NPC
+Compiling module MySplitter
+Compiling module CTRL
+Compiling module RegDstMUX
+Compiling module RegSrcMUX
+Compiling module GRF
+Compiling module EXT
+Compiling module ALUSrcMUX
+Compiling module ALU
+Compiling module DM
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 14 Verilog Units
+Built simulation executable E:/CO/co-lab/P4_PW/mips_tb_isim_beh.exe
+Fuse Memory Usage: 35420 KB
+Fuse CPU Usage: 390 ms

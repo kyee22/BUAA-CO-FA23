@@ -1,0 +1,10 @@
+[Inputs]
+=in1[4:0]=
+=in2[4:0]=
+=RegDst[7:0]=
+[Outputs]
+=out[4:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel RegDstMUX
+

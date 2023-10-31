@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"E:\CO\co-lab\P4_PW\IFU.v" Line 32: Signal &lt;<arg fmt="%s" index="1">IM</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\CO\co-lab\P4_PW\mips.v" Line 85: Assignment to <arg fmt="%s" index="1">shamt</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"E:\CO\co-lab\P4_PW\CTRL.v" Line 73: Assignment to <arg fmt="%s" index="1">MemSel</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"E:\CO\co-lab\P4_PW\mips.v" Line 108: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">in3</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">E:\CO\co-lab\P4_PW\mips.v</arg>&quot; line <arg fmt="%d" index="2">53</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">IFU</arg>&gt; of block &lt;<arg fmt="%s" index="4">IFU</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">E:\CO\co-lab\P4_PW\mips.v</arg>&quot; line <arg fmt="%d" index="2">62</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">NPC</arg>&gt; of block &lt;<arg fmt="%s" index="4">NPC</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">E:\CO\co-lab\P4_PW\mips.v</arg>&quot; line <arg fmt="%d" index="2">75</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">MySplitter</arg>&gt; of block &lt;<arg fmt="%s" index="4">MySplitter</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">E:\CO\co-lab\P4_PW\mips.v</arg>&quot; line <arg fmt="%d" index="2">88</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">CTRL</arg>&gt; of block &lt;<arg fmt="%s" index="4">CTRL</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">E:\CO\co-lab\P4_PW\mips.v</arg>&quot; line <arg fmt="%d" index="2">105</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">RegDstMUX</arg>&gt; of block &lt;<arg fmt="%s" index="4">RegDstMUX</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">E:\CO\co-lab\P4_PW\mips.v</arg>&quot; line <arg fmt="%d" index="2">116</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">RegSrcMUX</arg>&gt; of block &lt;<arg fmt="%s" index="4">RegSrcMUX</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">E:\CO\co-lab\P4_PW\mips.v</arg>&quot; line <arg fmt="%d" index="2">127</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">GRF</arg>&gt; of block &lt;<arg fmt="%s" index="4">GRF</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">E:\CO\co-lab\P4_PW\mips.v</arg>&quot; line <arg fmt="%d" index="2">143</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">EXT</arg>&gt; of block &lt;<arg fmt="%s" index="4">EXT</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">E:\CO\co-lab\P4_PW\mips.v</arg>&quot; line <arg fmt="%d" index="2">151</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ALUSrcMUX</arg>&gt; of block &lt;<arg fmt="%s" index="4">ALUSrcMUX</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">E:\CO\co-lab\P4_PW\mips.v</arg>&quot; line <arg fmt="%d" index="2">160</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ALU</arg>&gt; of block &lt;<arg fmt="%s" index="4">ALU</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">E:\CO\co-lab\P4_PW\mips.v</arg>&quot; line <arg fmt="%d" index="2">170</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">DM</arg>&gt; of block &lt;<arg fmt="%s" index="4">DM</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mips</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">E:\CO\co-lab\P4_PW\mips.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">Shamt</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">MySplitter</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+

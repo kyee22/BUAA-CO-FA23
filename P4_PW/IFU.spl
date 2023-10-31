@@ -1,0 +1,11 @@
+[Inputs]
+clk
+rst
+=NPC[31:0]=
+[Outputs]
+=Instr[31:0]=
+=PC[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel IFU
+

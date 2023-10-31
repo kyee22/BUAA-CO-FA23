@@ -1,0 +1,2 @@
+vhdtdtfi -lib work E:/CO/co-lab/P4_PW/MUX.v -lang verilog -prj P4_PW -o ALUSrcMUX.spl -module ALUSrcMUX -template E:/ISE/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 ALUSrcMUX.spl E:/CO/co-lab/P4_PW/ALUSrcMUX.sym 

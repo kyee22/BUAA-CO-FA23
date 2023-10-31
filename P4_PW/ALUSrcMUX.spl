@@ -1,0 +1,10 @@
+[Inputs]
+=in1[31:0]=
+=in2[31:0]=
+=ALUSrc[7:0]=
+[Outputs]
+=out[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel ALUSrcMUX
+

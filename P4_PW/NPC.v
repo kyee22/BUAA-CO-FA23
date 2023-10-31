@@ -31,6 +31,7 @@ module NPC(
 
     assign PC_plus_4 = PC + 4;
 
+
     always @(*) begin
         case(NPCOp)
             /*                    非跳转类                         */
@@ -40,7 +41,7 @@ module NPC(
             
             /*                       b类                         */
             1: begin // beq
-                NPC = (is_eq == 1) ? PC + 4 + extend_Imm : PC + 4;
+                NPC = (is_eq == 1) ? PC + 4 + (extend_Imm << 2) : PC + 4;
             end
 
             /*                       j类                         */

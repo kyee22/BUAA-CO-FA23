@@ -1,0 +1,2 @@
+vhdtdtfi -lib work E:/CO/co-lab/P4_PW/CTRL.v -lang verilog -prj P4_PW -o CTRL.spl -module CTRL -template E:/ISE/ise/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 CTRL.spl E:/CO/co-lab/P4_PW/CTRL.sym 

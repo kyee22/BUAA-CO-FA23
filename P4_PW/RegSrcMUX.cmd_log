@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj P4_PW -o E:/CO/co-lab/P4_PW/RegSrcMUX.tfi -lib work E:/CO/co-lab/P4_PW//MUX.v -module RegSrcMUX -template E:/ISE/ise/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

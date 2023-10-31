@@ -26,6 +26,7 @@ module GRF(
     input WE,
     input clk,
     input rst,
+    input [31:0] PC,
     output [31:0] RegRD1,           /*  输出信号    */
     output [31:0] RegRD2
     );
@@ -50,6 +51,7 @@ always @(posedge clk) begin
     //(1)上升沿  +  (2)写使能有效
     else if (WE) begin
         R[A3] = (A3 == 0) ? 0 : WD;
+        $display("@%h: $%d <= %h", PC, A3, WD);
     end
 end
 
